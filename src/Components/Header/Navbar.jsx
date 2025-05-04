@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <div className='flex items-center w-10/12 mx-auto my-4'>
             <div className='flex-1'></div>
-            <div className='text-accent text-center  flex-1'>
+            <div className='text-center  flex-1'>
                 <div className='space-x-4'>
                 <NavLink to={'/'}>Home</NavLink>
                 <NavLink to={'/about'}>About</NavLink>
