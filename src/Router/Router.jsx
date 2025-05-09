@@ -14,7 +14,8 @@ export const router = createBrowserRouter([
             {
                 path: '/category/:id',
                 element: <Home></Home>,
-                loader: () => fetch('/news.json')
+                loader: () => fetch('/news.json'),
+                hydrateFallbackElement: <span className="loading loading-dots loading-xl"></span>
             },
             {
                 path: '/about',

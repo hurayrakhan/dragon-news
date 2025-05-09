@@ -12,7 +12,7 @@ const Root = () => {
             <header>
                 <Header></Header>
             </header>
-            <main className='w-10/12 mx-auto grid grid-cols-12'>
+            <main className='w-10/12 mx-auto grid grid-cols-12 gap-3 mt-8'>
                 <aside className='col-span-3'>
                     <LeftNav></LeftNav>
                 </aside>
