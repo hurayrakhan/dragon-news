@@ -17,6 +17,12 @@ const RightNav = () => {
                 </button>
                 
             </div>
+            <h3 className='font-bold my-5'>Find Us On</h3>
+            <div className='flex flex-col gap-4'>
+                <button className='btn btn-outline text-blue-500'>Facebook</button>
+                <button className='btn btn-outline text-gray-500'>Twitter</button>
+                <button className='btn btn-outline text-emerald-500'>Github</button>
+            </div>
         </div>
     );
 };
