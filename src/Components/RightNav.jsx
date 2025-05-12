@@ -2,7 +2,7 @@ import React from 'react';
 
 const RightNav = () => {
     return (
-        <div>
+        <div className='sticky top-3 h-fit'>
             <h4 className='font-bold'>Login with</h4>
             <div className='flex flex-col gap-4 mt-5'>
                 {/* Google */}
